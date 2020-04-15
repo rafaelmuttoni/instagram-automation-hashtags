@@ -10,17 +10,25 @@ Tutorial:
 2. Run Yarn
 3. Config your account and hashtag
 
-You can manually add your account in app.js
+##### You can manually add your account in app.js
 ```javascript
 const username = "yourusername"
 const password = "yourpassword"
 ```
 
-Or you can create a account.js file with your information
-"yourusername"
+##### Or you can create a account.js file with your information
 ```javascript
 module.exports = [
   "yourusername",
   "yourpassword"
 ]
 ```
+^ account.js
+
+```javascript
+const login = require('./account')
+
+const username = login[0]
+const password = login[1]
+```
+^ app.js
