@@ -2,9 +2,7 @@
 
 An Instagram Bot that likes photos based on the hashtag.
 
-### Made using NodeJS and Puppeteer
-
-Tutorial:
+### Tutorial:
 
 1. Clone this repo
 2. Run Yarn
@@ -32,3 +30,5 @@ const username = login[0]
 const password = login[1]
 ```
 ^ app.js
+
+🚀 Made using NodeJS and Puppeteer
