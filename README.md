@@ -16,19 +16,21 @@ const password = "yourpassword"
 
 ##### Or you can create a account.js file with your information
 ```javascript
+// @account.js
+
 module.exports = [
   "yourusername",
   "yourpassword"
 ]
 ```
-^ account.js
 
 ```javascript
+// @app.js
+
 const login = require('./account')
 
 const username = login[0]
 const password = login[1]
 ```
-^ app.js
 
 🚀 Made using NodeJS and Puppeteer
