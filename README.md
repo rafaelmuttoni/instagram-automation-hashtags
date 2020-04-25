@@ -33,10 +33,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rafaelmuttoni/rafaelmuttoni.com
+$ git clone git@github.com:rafaelmuttoni/instagram-automation-hashtags.git
 
 # Go into the repository
-$ cd rafaelmuttoni.com
+$ cd instagram-automation-hashtags
 
 # Install dependencies
 $ yarn
